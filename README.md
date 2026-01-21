@@ -18,10 +18,10 @@ A template with Next.js 13 app dir, Contentlayer, Tailwind CSS and dark mode.
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/iabdullah215/my-portfolio
+git clone https://github.com/xor-1/portfolio
 ```
 
-Open your web browser and visit `https://iabdullah.vercel.app` to see the website in action.
+Open your web browser and visit `https://faisalfarooq.vercel.app` to see the website in action.
 
 ## Usage
 
