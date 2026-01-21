@@ -1,0 +1,51 @@
+---
+title: AirTech CTF 2024 - ttcccppp
+description: A network forensics CTF chall. writeup.
+date: "2024-03-2"
+---
+
+![first](/blog-post-1.jpg)
+
+## Let's get Cracking...
+
+## Challenge 02: tttcccppp
+
+Was a tricky yet interesting challenge to solve.
+
+In this challenge again a `.pcap` file was given in order to solve the challenge and a hint was given as well.
+
+![second](/static/images/hint.PNG)
+
+``` hint
+
+why would someone send data in the first part of the TCP handshake
+
+```
+
+A `TCP` handshake looks like this.
+
+![second](/static/images/tcp.png)
+
+So, I used the TCP filter to filter out the `TCP` traffic.
+
+![second](/static/images/trafic.PNG)
+
+After that when I examined every `SYN` packet they had an alphabet in them.
+
+![second](/static/images/A.png)
+
+![second](/static/images/T.png)
+
+![second](/static/images/2.png)
+
+![second](/static/images/4.png)
+
+As you can see they are forming the first four alphabets of the flag i.e. `AT24` So I carried on with the search and finally, I got the whole flag.
+
+Flag: `AT24{TTTCCCPPP_15_R3liable}`
+
+Stay in the loop with my latest content – follow me on [Medium](https://medium.com/@iabdullah_215) for more!
+
+## THANKS
+
+## MUHAMMAD ABDULLAH
